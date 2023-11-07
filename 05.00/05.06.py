@@ -1,0 +1,8 @@
+f = open("text06.txt", "r")
+f1 = open("text06.txt", "a")
+s = f.read()
+sf = s.title()
+f1.truncate(0)
+f1.write(sf)
+print(sf)
+f.close()

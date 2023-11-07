@@ -1,0 +1,6 @@
+f1 = open("text0501.txt", "r")
+s = f1.read()
+f2 = open("text0502.txt", "a")
+c = f2.write(s)
+f1.close()
+f2.close()
